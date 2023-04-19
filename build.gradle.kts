@@ -40,7 +40,7 @@ compose.desktop {
         mainClass = "MainKt"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "SkrapeBRSTest"
+            packageName = "BRSTest"
             packageVersion = "1.0.0"
         }
     }

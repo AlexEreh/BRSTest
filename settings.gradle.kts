@@ -12,5 +12,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "SkrapeBRSTest"
+rootProject.name = "BRSTest"
 
