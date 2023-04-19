@@ -1,0 +1,12 @@
+[versions]
+skrapeit = "1.1.5"
+ktor = "2.2.4"
+decompose = "2.0.0-alpha-02"
+
+[libraries]
+skrapeit = { group = "it.skrape", name = "skrapeit", version.ref = "skrapeit" }
+skrapeit-browser-fetcher = { group = "it.skrape", name = "skrapeit-browser-fetcher", version.ref = "skrapeit" }
+ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref="ktor" }
+ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref="ktor" }
+decompose = { group = "com.arkivanov.decompose", name = "decompose", version.ref="decompose" }
+decompose-jetbrains = { group = "com.arkivanov.decompose", name = "extensions-compose-jetbrains", version.ref="decompose" }
